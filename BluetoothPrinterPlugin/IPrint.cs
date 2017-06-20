@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XF.Plugin.Abstractions
+namespace XF.Printer.Plugin.Abstractions
 {
     public interface IPrint
     {
@@ -12,6 +12,6 @@ namespace XF.Plugin.Abstractions
         /// Print the input stirng to blue tooth printer
         /// </summary>
         /// <param name="input">input data in string format</param>
-        void Print(string input);
+        void PrintText(string input);
     }
 }

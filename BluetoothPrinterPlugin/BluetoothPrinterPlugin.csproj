@@ -8,8 +8,8 @@
     <ProjectGuid>{EB03C445-3285-4C1A-B7A1-9D83CD8D1954}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XF.Plugin</RootNamespace>
-    <AssemblyName>XF.Plugin</AssemblyName>
+    <RootNamespace>XF.Printer.Plugin</RootNamespace>
+    <AssemblyName>XF.Printer.Plugin</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

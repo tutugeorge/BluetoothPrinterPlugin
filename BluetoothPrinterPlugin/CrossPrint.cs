@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using XF.Plugin.Abstractions;
+using XF.Printer.Plugin.Abstractions;
 
-namespace XF.Plugin
+namespace XF.Printer.Plugin
 {
     public static class CrossPrint
     {

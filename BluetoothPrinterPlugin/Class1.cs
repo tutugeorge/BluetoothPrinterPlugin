@@ -8,4 +8,8 @@ namespace BluetoothPrinterPlugin
     public class Class1
     {
     }
+
+
+    //Reference
+    //https://blog.xamarin.com/creating-reusable-plugins-for-xamarin-forms/
 }

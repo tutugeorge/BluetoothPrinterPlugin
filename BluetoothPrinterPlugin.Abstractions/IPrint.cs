@@ -12,6 +12,6 @@ namespace XF.Printer.Plugin.Abstractions
         /// Print the input stirng to blue tooth printer
         /// </summary>
         /// <param name="input">input data in string format</param>
-        Task PrintText(string input);
+        Task PrintText(string input, string printerName);
     }
 }

@@ -14,11 +14,11 @@ using Android.Bluetooth;
 using Java.Util;
 using System.Threading.Tasks;
 
-namespace XF.Printer.Plugin.Droid
+namespace XF.Printer.Plugin
 {
     public class Print : IPrint
     {
-        public async Task PrintText(string input)
+        public async Task PrintText(string input, string printerName)
         {
             try
             {
@@ -37,7 +37,7 @@ namespace XF.Printer.Plugin.Droid
                     }
 
                     BluetoothDevice device = (from bd in bluetoothAdapter.BondedDevices
-                                              where bd.Name == "BlueTooth Printer"
+                                              where bd.Name == printerName
                                               select bd).FirstOrDefault();
 
                     using (BluetoothSocket _socket = device.CreateRfcommSocketToServiceRecord(UUID.FromString("00001101-0000-1000-8000-00805f9b34fb")))

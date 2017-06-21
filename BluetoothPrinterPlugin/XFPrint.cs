@@ -7,7 +7,7 @@ using XF.Printer.Plugin.Abstractions;
 
 namespace XF.Printer.Plugin
 {
-    public static class CrossPrint
+    public static class XFPrint
     {
         static Lazy<IPrint> TTS = new Lazy<IPrint>(
             () => CreatePrint(), 

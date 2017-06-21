@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\BluetoothPrinterPlugin\XFPrint.cs">
+      <Link>XFPrint.cs</Link>
+    </Compile>
     <Compile Include="Print.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,9 +58,9 @@
     <AndroidResource Include="Resources\Values\Strings.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BluetoothPrinterPlugin\BluetoothPrinterPlugin.csproj">
-      <Project>{eb03c445-3285-4c1a-b7a1-9d83cd8d1954}</Project>
-      <Name>BluetoothPrinterPlugin</Name>
+    <ProjectReference Include="..\BluetoothPrinterPlugin.Abstractions\BluetoothPrinterPlugin.Abstractions.csproj">
+      <Project>{a8c12961-b0bc-4a3e-a22d-ede4ab4c42f1}</Project>
+      <Name>BluetoothPrinterPlugin.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

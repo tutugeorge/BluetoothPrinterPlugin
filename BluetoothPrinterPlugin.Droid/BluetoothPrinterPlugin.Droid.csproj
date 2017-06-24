@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XF.Printer.Plugin.Droid</RootNamespace>
-    <AssemblyName>BluetoothPrinterPlugin.Droid</AssemblyName>
+    <RootNamespace>XF.Printer.Plugin</RootNamespace>
+    <AssemblyName>XF.Printer.Plugin</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
@@ -33,6 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\XF.Printer.Plugin.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -44,7 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="..\BluetoothPrinterPlugin\XFPrint.cs">
+      <Link>XFPrint.cs</Link>
+    </Compile>
     <Compile Include="Print.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -56,9 +59,9 @@
     <AndroidResource Include="Resources\Values\Strings.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BluetoothPrinterPlugin\BluetoothPrinterPlugin.csproj">
-      <Project>{eb03c445-3285-4c1a-b7a1-9d83cd8d1954}</Project>
-      <Name>BluetoothPrinterPlugin</Name>
+    <ProjectReference Include="..\BluetoothPrinterPlugin.Abstractions\BluetoothPrinterPlugin.Abstractions.csproj">
+      <Project>{a8c12961-b0bc-4a3e-a22d-ede4ab4c42f1}</Project>
+      <Name>BluetoothPrinterPlugin.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using XF.Printer.Plugin.Abstractions;
 
 namespace XF.Printer.Plugin
 {
-    public static class CrossPrint
+    public static class XFPrint
     {
         static Lazy<IPrint> TTS = new Lazy<IPrint>(
             () => CreatePrint(), 

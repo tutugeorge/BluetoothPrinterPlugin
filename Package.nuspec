@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>XF.Printer.Plugin</id>
+    <version>1.0.0</version>
+    <authors>Tutu George</authors>
+    <owners>Tutu George</owners> 
+    <projectUrl>https://github.com/tutugeorge/BluetoothPrinterPlugin</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Cross platform plugin for Bluetooth Printer access</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>xamarin, xamarin-forms, pcl, printer, ecs, bluetooth</tags>    
+  </metadata>
+  <files>
+    <file src="BluetoothPrinterPlugin\bin\Release\XF.Printer.Plugin.dll" target="lib\portable-net45+wp80+win8+wpa81\XF.Printer.Plugin.dll" />
+    <file src="BluetoothPrinterPlugin\bin\Release\XF.Printer.Plugin.pdb" target="lib\portable-net45+wp80+win8+wpa81\XF.Printer.Plugin.pdb" />
+    <file src="BluetoothPrinterPlugin\bin\Release\XF.Printer.Plugin.xml" target="lib\portable-net45+wp80+win8+wpa81\XF.Printer.Plugin.xml" />
+    
+    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Printer.Plugin.Abstractions.dll" target="lib\portable-net45+wp80+win8+wpa81\XF.Printer.Plugin.Abstractions.dll" />
+    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Printer.Plugin.Abstractions.pdb" target="lib\portable-net45+wp80+win8+wpa81\XF.Printer.Plugin.Abstractions.pdb" />
+    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Printer.Plugin.Abstractions.xml" target="lib\portable-net45+wp80+win8+wpa81\XF.Printer.Plugin.Abstractions.xml" />
+    
+    <file src="BluetoothPrinterPlugin.Droid\bin\Release\XF.Printer.Plugin.dll" target="lib\MonoAndroid10\XF.Printer.Plugin.dll" />
+    <file src="BluetoothPrinterPlugin.Droid\bin\Release\XF.Printer.Plugin.pdb" target="lib\MonoAndroid10\XF.Printer.Plugin.pdb" />    
+    <file src="BluetoothPrinterPlugin.Droid\bin\Release\XF.Printer.Plugin.xml" target="lib\MonoAndroid10\XF.Printer.Plugin.xml" />    
+    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Printer.Plugin.Abstractions.dll" target="lib\MonoAndroid10\XF.Printer.Plugin.Abstractions.dll" />
+    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Printer.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\XF.Printer.Plugin.Abstractions.pdb" />    
+    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Printer.Plugin.Abstractions.xml" target="lib\MonoAndroid10\XF.Printer.Plugin.Abstractions.xml" />    
+</files>
+</package>

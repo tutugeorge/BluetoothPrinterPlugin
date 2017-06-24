@@ -8,21 +8,31 @@ using System.Threading.Tasks;
 
 namespace XF.Printer.Plugin
 {
+    /// <summary>
+    /// Print funtion
+    /// </summary>
     public class Print : IPrint
     {
+        /// <summary>
+        /// This method prints data to the bluetooth printer
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="printerName"></param>
+        /// <returns></returns>
         public async Task PrintText(string input, string printerName)
         {
-            try
-            {
+            
                 using (BluetoothAdapter bluetoothAdapter = BluetoothAdapter.DefaultAdapter)
                 {
                     if (bluetoothAdapter == null)
                     {
-                        return;
+                        throw new Exception("No default adapter");
+                        //return;
                     }
 
                     if (!bluetoothAdapter.IsEnabled)
                     {
+                        throw new Exception("Bluetooth not enabled");
                         Intent enableIntent = new Intent(BluetoothAdapter.ActionRequestEnable);
                         //StartActivityForResult(enableIntent, REQUEST_ENABLE_BT);
                         // Otherwise, setup the chat session
@@ -31,7 +41,11 @@ namespace XF.Printer.Plugin
                     BluetoothDevice device = (from bd in bluetoothAdapter.BondedDevices
                                               where bd.Name == printerName
                                               select bd).FirstOrDefault();
+                    if (device == null)
+                        throw new Exception(printerName + " device not found.");
 
+                try
+                {
                     using (BluetoothSocket _socket = device.CreateRfcommSocketToServiceRecord(UUID.FromString("00001101-0000-1000-8000-00805f9b34fb")))
                     {
                         await _socket.ConnectAsync();
@@ -42,14 +56,16 @@ namespace XF.Printer.Plugin
                         await _socket.OutputStream.WriteAsync(buffer, 0, buffer.Length);
                         _socket.Close();
                     }
-
-                    if (device == null)
-                        throw new Exception("Named device not found.");
                 }
-            }
-            catch (Exception ex)
-            {
-            }
+                catch (Exception exp)
+                {
+                    
+                    throw exp;
+                }
+
+                    
+                }
+            
         }
     }
 }

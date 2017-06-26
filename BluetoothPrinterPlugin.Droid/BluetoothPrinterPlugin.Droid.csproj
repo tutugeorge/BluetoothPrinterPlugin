@@ -45,9 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\BluetoothPrinterPlugin\XFPrint.cs">
-      <Link>XFPrint.cs</Link>
-    </Compile>
     <Compile Include="Print.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

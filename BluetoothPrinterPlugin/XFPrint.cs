@@ -1,14 +1,20 @@
 ﻿using System;
-using XF.Printer.Plugin.Abstractions;
+using XF.Bluetooth.Printer.Plugin.Abstractions;
 
-namespace XF.Printer.Plugin
+namespace XF.Bluetooth.Printer.Plugin
 {
+    /// <summary>
+    /// Static class giving handle to Printer Object
+    /// </summary>
     public static class XFPrint
     {
         static Lazy<IPrint> TTS = new Lazy<IPrint>(
             () => CreatePrint(), 
             System.Threading.LazyThreadSafetyMode.PublicationOnly);
 
+        /// <summary>
+        /// Static property giving handle to printer object
+        /// </summary>
         public static IPrint Current
         {
             get

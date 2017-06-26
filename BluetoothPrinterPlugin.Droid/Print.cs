@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
 using Android.Content;
-using XF.Printer.Plugin.Abstractions;
+using XF.Bluetooth.Printer.Plugin.Abstractions;
 using Android.Bluetooth;
 using Java.Util;
 using System.Threading.Tasks;
 
-namespace XF.Printer.Plugin
+namespace XF.Bluetooth.Printer.Plugin
 {
     /// <summary>
     /// Print funtion
@@ -33,7 +33,7 @@ namespace XF.Printer.Plugin
                     if (!bluetoothAdapter.IsEnabled)
                     {
                         throw new Exception("Bluetooth not enabled");
-                        Intent enableIntent = new Intent(BluetoothAdapter.ActionRequestEnable);
+                        //Intent enableIntent = new Intent(BluetoothAdapter.ActionRequestEnable);
                         //StartActivityForResult(enableIntent, REQUEST_ENABLE_BT);
                         // Otherwise, setup the chat session
                     }

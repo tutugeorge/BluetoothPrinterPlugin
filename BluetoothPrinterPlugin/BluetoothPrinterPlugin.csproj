@@ -8,8 +8,8 @@
     <ProjectGuid>{EB03C445-3285-4C1A-B7A1-9D83CD8D1954}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XF.Printer.Plugin</RootNamespace>
-    <AssemblyName>XF.Printer.Plugin</AssemblyName>
+    <RootNamespace>XF.Bluetooth.Printer.Plugin</RootNamespace>
+    <AssemblyName>XF.Bluetooth.Printer.Plugin</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -32,7 +32,7 @@
     <DefineConstants>TRACE;PORTABLE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\XF.Printer.Plugin.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\XF.Bluetooth.Printer.Plugin.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
@@ -42,7 +42,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="XFPrint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

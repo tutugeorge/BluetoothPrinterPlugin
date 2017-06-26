@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>XF.Bluetooth.Printer.Plugin</RootNamespace>
-    <AssemblyName>XF.Printer.Plugin</AssemblyName>
+    <AssemblyName>XF.Bluetooth.Printer.Plugin</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
@@ -33,7 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\XF.Printer.Plugin.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\XF.Bluetooth.Printer.Plugin.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\BluetoothPrinterPlugin\XFPrint.cs">
+      <Link>XFPrint.cs</Link>
+    </Compile>
     <Compile Include="Print.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

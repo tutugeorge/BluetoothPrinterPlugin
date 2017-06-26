@@ -4,11 +4,12 @@
     <id>XF.Bluetooth.Printer.Plugin</id>
     <version>1.0.0</version>
     <authors>Tutu George</authors>
-    <owners>Tutu George</owners> 
+    <owners>Tutu George</owners>
+    <title>Cross platform for Bluetooth Printer</title>
     <projectUrl>https://github.com/tutugeorge/BluetoothPrinterPlugin</projectUrl>
     <licenseUrl>https://github.com/tutugeorge/BluetoothPrinterPlugin/blob/master/LICENSE</licenseUrl>    
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Cross platform plugin for Bluetooth Printer access</description>
+    <description>This plug-in lets you print to the paired bluetooth printer</description>
     <releaseNotes>Initial release</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>xamarin, xamarin-forms, pcl, printer, ecs, bluetooth</tags>    

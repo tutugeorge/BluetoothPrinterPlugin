@@ -33,7 +33,7 @@ namespace XF.Bluetooth.Printer.Plugin
                     if (!bluetoothAdapter.IsEnabled)
                     {
                         throw new Exception("Bluetooth not enabled");
-                        Intent enableIntent = new Intent(BluetoothAdapter.ActionRequestEnable);
+                        //Intent enableIntent = new Intent(BluetoothAdapter.ActionRequestEnable);
                         //StartActivityForResult(enableIntent, REQUEST_ENABLE_BT);
                         // Otherwise, setup the chat session
                     }

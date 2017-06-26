@@ -14,19 +14,19 @@
     <tags>xamarin, xamarin-forms, pcl, printer, ecs, bluetooth</tags>    
   </metadata>
   <files>
-    <file src="BluetoothPrinterPlugin\bin\Release\XF.Printer.Plugin.dll" target="lib\portable-net45+wp80+win8+wpa81\XF.Printer.Plugin.dll" />
-    <file src="BluetoothPrinterPlugin\bin\Release\XF.Printer.Plugin.pdb" target="lib\portable-net45+wp80+win8+wpa81\XF.Printer.Plugin.pdb" />
-    <file src="BluetoothPrinterPlugin\bin\Release\XF.Printer.Plugin.xml" target="lib\portable-net45+wp80+win8+wpa81\XF.Printer.Plugin.xml" />
+    <file src="BluetoothPrinterPlugin\bin\Release\XF.Bluetooth.Printer.Plugin.dll" target="lib\portable-net45+wp80+win8+wpa81\XF.Bluetooth.Printer.Plugin.dll" />
+    <file src="BluetoothPrinterPlugin\bin\Release\XF.Bluetooth.Printer.Plugin.pdb" target="lib\portable-net45+wp80+win8+wpa81\XF.Bluetooth.Printer.Plugin.pdb" />
+    <file src="BluetoothPrinterPlugin\bin\Release\XF.Bluetooth.Printer.Plugin.xml" target="lib\portable-net45+wp80+win8+wpa81\XF.Bluetooth.Printer.Plugin.xml" />
     
-    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Printer.Plugin.Abstractions.dll" target="lib\portable-net45+wp80+win8+wpa81\XF.Printer.Plugin.Abstractions.dll" />
-    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Printer.Plugin.Abstractions.pdb" target="lib\portable-net45+wp80+win8+wpa81\XF.Printer.Plugin.Abstractions.pdb" />
-    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Printer.Plugin.Abstractions.xml" target="lib\portable-net45+wp80+win8+wpa81\XF.Printer.Plugin.Abstractions.xml" />
+    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Bluetooth.Printer.Plugin.Abstractions.dll" target="lib\portable-net45+wp80+win8+wpa81\XF.Bluetooth.Printer.Plugin.Abstractions.dll" />
+    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Bluetooth.Printer.Plugin.Abstractions.pdb" target="lib\portable-net45+wp80+win8+wpa81\XF.Bluetooth.Printer.Plugin.Abstractions.pdb" />
+    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Bluetooth.Printer.Plugin.Abstractions.xml" target="lib\portable-net45+wp80+win8+wpa81\XF.Bluetooth.Printer.Plugin.Abstractions.xml" />
     
-    <file src="BluetoothPrinterPlugin.Droid\bin\Release\XF.Printer.Plugin.dll" target="lib\MonoAndroid10\XF.Printer.Plugin.dll" />
-    <file src="BluetoothPrinterPlugin.Droid\bin\Release\XF.Printer.Plugin.pdb" target="lib\MonoAndroid10\XF.Printer.Plugin.pdb" />    
-    <file src="BluetoothPrinterPlugin.Droid\bin\Release\XF.Printer.Plugin.xml" target="lib\MonoAndroid10\XF.Printer.Plugin.xml" />    
-    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Printer.Plugin.Abstractions.dll" target="lib\MonoAndroid10\XF.Printer.Plugin.Abstractions.dll" />
-    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Printer.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\XF.Printer.Plugin.Abstractions.pdb" />    
-    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Printer.Plugin.Abstractions.xml" target="lib\MonoAndroid10\XF.Printer.Plugin.Abstractions.xml" />    
+    <file src="BluetoothPrinterPlugin.Droid\bin\Release\XF.Bluetooth.Printer.Plugin.dll" target="lib\MonoAndroid10\XF.Bluetooth.Printer.Plugin.dll" />
+    <file src="BluetoothPrinterPlugin.Droid\bin\Release\XF.Bluetooth.Printer.Plugin.pdb" target="lib\MonoAndroid10\XF.Bluetooth.Printer.Plugin.pdb" />    
+    <file src="BluetoothPrinterPlugin.Droid\bin\Release\XF.Bluetooth.Printer.Plugin.xml" target="lib\MonoAndroid10\XF.Bluetooth.Printer.Plugin.xml" />    
+    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Bluetooth.Printer.Plugin.Abstractions.dll" target="lib\MonoAndroid10\XF.Bluetooth.Printer.Plugin.Abstractions.dll" />
+    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Bluetooth.Printer.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\XF.Bluetooth.Printer.Plugin.Abstractions.pdb" />    
+    <file src="BluetoothPrinterPlugin.Abstractions\bin\Release\XF.Bluetooth.Printer.Plugin.Abstractions.xml" target="lib\MonoAndroid10\XF.Bluetooth.Printer.Plugin.Abstractions.xml" />    
 </files>
 </package>

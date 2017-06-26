@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
 using Android.Content;
-using XF.Printer.Plugin.Abstractions;
+using XF.Bluetooth.Printer.Plugin.Abstractions;
 using Android.Bluetooth;
 using Java.Util;
 using System.Threading.Tasks;
 
-namespace XF.Printer.Plugin
+namespace XF.Bluetooth.Printer.Plugin
 {
     /// <summary>
     /// Print funtion

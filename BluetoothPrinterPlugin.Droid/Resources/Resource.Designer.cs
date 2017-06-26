@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("XF.Printer.Plugin.Resource", IsApplication=false)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("XF.Bluetooth.Printer.Plugin.Resource", IsApplication=false)]
 
-namespace XF.Printer.Plugin
+namespace XF.Bluetooth.Printer.Plugin
 {
 	
 	

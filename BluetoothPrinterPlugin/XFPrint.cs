@@ -1,7 +1,7 @@
 ﻿using System;
-using XF.Printer.Plugin.Abstractions;
+using XF.Bluetooth.Printer.Plugin.Abstractions;
 
-namespace XF.Printer.Plugin
+namespace XF.Bluetooth.Printer.Plugin
 {
     public static class XFPrint
     {

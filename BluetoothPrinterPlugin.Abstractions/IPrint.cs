@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace XF.Printer.Plugin.Abstractions
+namespace XF.Bluetooth.Printer.Plugin.Abstractions
 {
     public interface IPrint
     {

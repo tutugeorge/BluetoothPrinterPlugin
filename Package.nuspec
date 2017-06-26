@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>XF.Printer.Plugin</id>
+    <id>XF.Bluetooth.Printer.Plugin</id>
     <version>1.0.0</version>
     <authors>Tutu George</authors>
     <owners>Tutu George</owners> 
     <projectUrl>https://github.com/tutugeorge/BluetoothPrinterPlugin</projectUrl>
+    <licenseUrl>https://github.com/tutugeorge/BluetoothPrinterPlugin/blob/master/LICENSE</licenseUrl>    
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Cross platform plugin for Bluetooth Printer access</description>
     <releaseNotes>Initial release</releaseNotes>
